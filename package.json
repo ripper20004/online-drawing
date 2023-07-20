@@ -1,0 +1,37 @@
+{
+  "name": "online-drawing",
+  "version": "1.0.0",
+  "description": "Realtime drawing game",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripper20004/online-drawing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ripper20004/online-drawing/issues"
+  },
+  "homepage": "https://github.com/ripper20004/online-drawing#readme",
+  "dependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.9",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.45.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "pug": "^3.0.2",
+    "socket.io": "^4.7.1"
+  }
+}
